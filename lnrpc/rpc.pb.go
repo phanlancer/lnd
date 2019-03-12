@@ -196,7 +196,7 @@ func (ChannelCloseSummary_ClosureType) EnumDescriptor() ([]byte, []int) {
 type GenSeedRequest struct {
 	// *
 	// aezeed_passphrase is an optional user provided passphrase that will be used
-	// to encrypt the generated aezeed cipher seed.
+	// to encrypt the generated aezeed cipher seed
 	AezeedPassphrase []byte `protobuf:"bytes,1,opt,name=aezeed_passphrase,json=aezeedPassphrase,proto3" json:"aezeed_passphrase,omitempty"`
 	// *
 	// seed_entropy is an optional 16-bytes generated via CSPRNG. If not
